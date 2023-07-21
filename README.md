@@ -10,7 +10,7 @@ The purpose of this repository is to challenge myself to solve diverse coding pr
 
 ## File Format
 
-The repository is organized by date, with each solution stored in a separate Python file following the format `Name: todays_date.py`. The content of each file consists of the solution to the problem presented in the Daily Coding Problem email, structured as follows:
+The repository is organized by date, with each solution stored in a separate Python file following the format `Name: Problem#{number}_YYYY-DD-MM.py`. The content of each file consists of the solution to the problem presented in the Daily Coding Problem email, structured as follows:
 
 ```python
 # Problem: [Brief description of the question from Daily Coding Problem email]
