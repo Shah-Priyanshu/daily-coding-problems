@@ -10,9 +10,9 @@ Bonus: Can you do this in one pass?
 
 
 def solution(lst, k):
-    for i in range(len(lst)):
-        s = k - lst[i]
-        if s in lst:
+    for num in range(len(lst)):
+        diff = k - lst[num]
+        if diff in lst:
             return True
     return False
 
