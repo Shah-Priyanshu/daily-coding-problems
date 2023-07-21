@@ -9,7 +9,16 @@ Bonus: Can you do this in one pass?
 """
 
 class Solution:
-    def SumFinder(lst, k):
+    def SumFinder(self,lst, k):
+        """Summary
+
+        Args:
+            lst (list): list of numbers
+            k (int): target sum
+
+        Returns:
+            bool: True if any two numbers from the list add up to k, False otherwise
+        """
         for num in range(len(lst)):
             diff = k - lst[num]
             if diff in lst:
