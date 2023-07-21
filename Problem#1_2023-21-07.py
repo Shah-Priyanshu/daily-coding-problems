@@ -8,13 +8,13 @@ Bonus: Can you do this in one pass?
 
 """
 
-
-def solution(lst, k):
-    for num in range(len(lst)):
-        diff = k - lst[num]
-        if diff in lst:
-            return True
-    return False
+class Solution:
+    def SumFinder(lst, k):
+        for num in range(len(lst)):
+            diff = k - lst[num]
+            if diff in lst:
+                return True
+        return False
 
 
 # __main__
@@ -23,4 +23,4 @@ k = int(input("Enter the value of k: "))
 #lst = [10, 15, 3, 7]
 #k = 17
 
-print(solution(lst, k))
+print(Solution.SumFinder(lst, k))

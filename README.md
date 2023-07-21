@@ -14,18 +14,19 @@ The repository is organized by date, with each solution stored in a separate Pyt
 
 ```python
 # Problem: [Brief description of the question from Daily Coding Problem email]
+class Solution():
 
-def Solution():
-    """
-    Write your Python solution to the problem here.
-    """
-    # Your code here
+    def Solution():
+        """
+        Write your Python solution to the problem here.
+        """
+        # Your code here
 
-    # Optionally, you can add a brief explanation of your solution
+        # Optionally, you can add a brief explanation of your solution
 
-    # Return the result or the necessary value according to the problem
+        # Return the result or the necessary value according to the problem
 
-# You may also include any helper functions or classes if needed
+    # You may also include any helper functions or classes if needed
 ```
 
 ## How to Use This Repository
