@@ -8,8 +8,8 @@ Bonus: Can you do this in one pass?
 
 """
 
-class Solution:
-    def SumFinder(self,lst, k):
+class Solution():
+    def SumFinder(lst, k):
         """Summary
 
         Args:
@@ -27,7 +27,7 @@ class Solution:
 
 
 # __main__
-lst = [int(x) for x in input("Enter the list of numbers separated by spaces: ").split()]
+lst = [int(x) for x in input("Enter the list of numbers separated by comma: ").split(',')]
 k = int(input("Enter the value of k: "))
 #lst = [10, 15, 3, 7]
 #k = 17
