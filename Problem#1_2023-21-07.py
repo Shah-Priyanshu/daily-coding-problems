@@ -8,7 +8,7 @@ Bonus: Can you do this in one pass?
 
 """
 
-class Solution():
+class Solution:
     def SumFinder(lst, k):
         """Summary
 
