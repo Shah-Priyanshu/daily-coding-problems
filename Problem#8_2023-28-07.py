@@ -35,8 +35,7 @@ class Solution:
 
         return dfs_count_unival_subtrees(root)
 
-# Example usage:
-# Construct the example tree
+#__main__
 root = TreeNode(0)
 root.left = TreeNode(1)
 root.right = TreeNode(0)
