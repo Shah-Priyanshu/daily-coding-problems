@@ -30,6 +30,6 @@ class Solution:
 
         return max(include, exclude)
 
-# Example usage:
+#__main__
 print(Solution.largest_sum_non_adjacent([2, 4, 6, 2, 5]))  # Output: 13
 print(Solution.largest_sum_non_adjacent([5, 1, 1, 5]))     # Output: 10
